@@ -1,6 +1,3 @@
-import os
-os.environ['DISPLAY'] = ':0'
-
 import streamlit as st
 import cv2
 import requests
