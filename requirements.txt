@@ -1,7 +1,6 @@
 numpy
 opencv-python
-opencv-python-headless
-requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_516b78ce-034d-4395-b9b5-1d78c2847384qtnol99l/croots/recipe/requests_1657734628886/work
+requests
 requests-oauthlib
 streamlit
 streamlit-lottie
