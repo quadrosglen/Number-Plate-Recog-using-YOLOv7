@@ -9,7 +9,7 @@ OCR_CLASS = 'license-plate'
 FOLDER_PATH = 'license-plates'
 seconds_to_wait = 2
 
-@st.route('/upload', methods=['POST'])
+@st.server.routes('/upload', methods=['POST'])
 def process_upload():
     uploaded_file = st.request.files['image']
     if uploaded_file is not None:
