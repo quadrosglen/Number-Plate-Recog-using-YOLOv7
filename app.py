@@ -3,7 +3,7 @@ import cv2
 import requests
 import numpy as np
 
-URL = 'https://inf-76370045-724e-413b-960f-6e28fa989274-no4xvrhsfq-uc.a.run.app/detect'  # Theos API URL
+URL = 'https://inf-76370045-724e-413b-960f-6e28fa989274-no4xvrhsfq-uc.a.run.app/detect'
 OCR_MODEL = 'large'
 OCR_CLASS = 'license-plate'
 FOLDER_PATH = 'license-plates'
